@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?><!-- android:layout_height is determined in DetailFragment using @dimen/tab_widget_height -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tabsLayout"
+    android:layout_width="fill_parent"
+    android:layout_height="@dimen/tab_widget_height"
+    android:background="@drawable/tab_detail_bg_selector"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tabsText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tab_title_example"
+        style="@style/TabWidgetText" />
+</LinearLayout>

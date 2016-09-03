@@ -1,0 +1,19 @@
+<resources>
+    <dimen name="tab_widget_height">48dp</dimen>
+    <dimen name="content_padding">10dp</dimen>
+    <dimen name="margin_top">6dp</dimen>
+    <dimen name="body_elements_space">6dp</dimen>
+    <dimen name="body_image_space">12dp</dimen>
+    <dimen name="card_corner_radius">4dp</dimen>
+    <dimen name="space_between_card_views">8dp</dimen>
+    <dimen name="first_card_view_container_top_dist">@dimen/content_padding</dimen>
+    <dimen name="last_card_view_container_bottom_dist">@dimen/content_padding</dimen>
+
+    <!-- Text sizes -->
+    <dimen name="text_size_display1">34sp</dimen>
+    <dimen name="text_size_title">20sp</dimen>
+    <dimen name="text_size_tab_widget">18sp</dimen>
+    <dimen name="text_size_subhead">16sp</dimen>
+    <dimen name="text_size_body">14sp</dimen>
+    <dimen name="text_size_caption">12sp</dimen>
+</resources>

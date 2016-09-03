@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#fff</color>
+    <color name="black">#000</color>
+    <color name="light_gray">#2affffff</color>
+    <color name="alpha_black">#99000000</color>
+    <color name="transparent">#00000000</color>
+    <color name="colorPrimary">#ff212121</color>
+    <color name="colorPrimaryDark">#0c0c0c</color>
+    <color name="colorAccent">#ff80cbc4</color>
+
+    <color name="favoriteIconColor">@color/white</color>
+    <color name="pressedBackground">@color/light_gray</color>
+    <color name="backdropFilter">@color/alpha_black</color>
+    <color name="tabBackgroundColor">@color/colorPrimary</color>
+</resources>

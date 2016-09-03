@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">Popular Movies</string>v
+    <string name="title_detail_activity">Movie Details</string>
+
+    <string name="exhibition_key">exhibition_key</string>
+
+    <string name="action_sort_by_popularity">Show by popularity</string>
+    <string name="action_sort_by_user_rate">Show by user rate</string>
+    <string name="action_show_favorites">Show favorites</string>
+
+    <string name="main">Main</string>
+    <string name="trailers">Trailers</string>
+    <string name="reviews">Reviews</string>
+
+    <string name="movie_added_to_favorites">Movie added to favorites</string>
+    <string name="movie_removed_from_favorites">Movie removed from favorites</string>
+    <string name="remove_movie_to_favorites">Remove movie from favorites</string>
+    <string name="add_movie_to_favorites">Add movie to favorites</string>
+
+    <string name="movie_title_example">Movie Title</string>
+    <string name="release_date_example">2016–08–23</string>
+    <string name="overview_example">Overview: Interstellar chronicles the adventures of a group of explorers who make use of a newly discovered wormhole to surpass the limitations on human space travel and conquer the vast distances involved in an interstellar voyage.</string>
+    <string name="user_rating_example">User rating: 5.6</string>
+    <string name="trailer_name_example">Official Trailer</string>
+    <string name="review_authorship_example">By John Travolta</string>
+    <string name="review_content_example">It is a piece of shit. It is a piece of shit. It is a piece of shit. It is a piece of shit. It is a piece of shit. It is a piece of shit. It is a piece of shit. It is a piece of shit. It is a piece of shit!!!</string>
+
+    <string name="loading">Loading…</string>
+    <string name="load_error_message">Error loading the data. Please, check you connection and try again.</string>
+    <string name="button_try_again">Try again</string>
+    <string name="no_content_found">No content found.</string>
+
+    <string name="error_saving_movie_in_favorites">An error occurred while saving the movie to your favorites</string>
+    <string name="error_deleting_movie_from_favorites">An error occurred when deleting the movie from favorites</string>
+
+    <string name="tab_title_example">Tab Title</string>
+
+    <string name="release_date">(%1$s)</string>
+    <string name="user_rating">User rating: %1$.2f</string>
+    <string name="overview">Overview: %1$s</string>
+    
+    <string name="review_authorship">By %1$s</string>
+</resources>

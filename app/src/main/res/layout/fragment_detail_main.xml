@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/scrollview"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/detail_header_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/backdrop"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/sample_movie_backdrop"
+                style="@style/CenteredScalable" />
+
+            <ImageView
+                android:id="@+id/backdrop_filter"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/backdropFilter"
+                android:src="@drawable/empty_movie_backdrop"
+                style="@style/CenteredScalable" />
+
+            <android.support.percent.PercentRelativeLayout
+                android:id="@+id/movie_title_container"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:gravity="center">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    app:layout_widthPercent="90%">
+
+                    <TextView
+                        android:id="@+id/movie_title"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/movie_title_example"
+                        style="@style/DetailHeaderText.MovieTitle" />
+
+                    <TextView
+                        android:id="@+id/release_date"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/release_date_example"
+                        style="@style/DetailHeaderText.ReleaseDate" />
+                </LinearLayout>
+
+            </android.support.percent.PercentRelativeLayout>
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            style="@style/ContentContainer">
+
+            <TextView
+                android:id="@+id/user_rating"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/user_rating_example"
+                style="@style/BodyElement.First" />
+
+            <!-- TODO: Justify the overview text -->
+            <TextView
+                android:id="@+id/overview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/overview_example"
+                style="@style/BodyElement.NotFirst" />
+
+            <android.support.percent.PercentRelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                style="@style/BodyElement.NotFirst.Image">
+
+                <ImageView
+                    android:id="@+id/poster"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/sample_poster"
+                    app:layout_widthPercent="60%"
+                    style="@style/CenteredScalable" />
+            </android.support.percent.PercentRelativeLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
+
